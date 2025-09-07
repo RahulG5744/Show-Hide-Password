@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Show Hide Password</title>
+</head>
+<body>
+    
+<center>
+  <input ="password" id="pwd" placeholder="Enter Password">
+  <button  onclick="togglePwd()" >Show/Hide</button>
+  
+
+  <script>
+    function togglePwd() {
+      const p = document.getElementById("pwd");
+      p.type = p.type === "password" ? "text" : "password";
+    }
+  </script>
+</center>
+</body>
+</html>
